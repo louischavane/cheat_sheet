@@ -13,7 +13,9 @@ sqlite3 db/development.sqlite3
 |:-----------|:----------|
 | .tables   | affiche toutes les tables |
 | .schema   | affiche le schéma de toutes les tables |
-| .schema *$tablename* | affiche le schéma d'une table
+| .schema *$tablename* | affiche le schéma d'une table |
+| .help | affiche toutes les commandes disponibles |
+| .exit | quitte sqlite3 |
 
 
 ## Pour améliorer l'affichage de sqlite3
@@ -26,6 +28,4 @@ Faire des requêtes SQL
 ```sql
 SELECT * FROM tablename;
 ```
-
-## debug
 
